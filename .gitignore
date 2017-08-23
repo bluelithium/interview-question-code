@@ -20,3 +20,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/以java的角度聊聊XSS攻击与防御/spring-boot-thymeleaf-anti-xss/src/main/resources/static/js/lib
+/以java的角度聊聊XSS攻击与防御/spring-boot-thymeleaf-anti-xss/src/main/resources/static/js/lib/summernote
+/以java的角度聊聊XSS攻击与防御/spring-boot-thymeleaf-anti-xss/src/main/resources/static/js/lib/xss
+/以java的角度聊聊XSS攻击与防御/spring-boot-thymeleaf-anti-xss/src/main/resources/static/js/lib/bootstrap
+/以java的角度聊聊XSS攻击与防御/spring-boot-thymeleaf-anti-xss/src/main/resources/static/js/lib/bootstrap-wysiwyg
+/以java的角度聊聊XSS攻击与防御/spring-boot-thymeleaf-anti-xss/src/main/resources/static/js/lib/jquery
