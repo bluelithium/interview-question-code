@@ -1,0 +1,26 @@
+{
+  "name": "thymeleaf-anti-xss",
+  "authors": [
+    "znlover"
+  ],
+  "description": "thymeleaf anti xss demoe",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "xss": "^0.3.3",
+    "bootstrap-wysiwyg": "*",
+    "summernote": "^0.8.7"
+  }
+}

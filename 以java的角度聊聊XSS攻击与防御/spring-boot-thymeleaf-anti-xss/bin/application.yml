@@ -1,0 +1,29 @@
+server:
+  port: 8885
+
+#datasource
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.85.130:3306/ez_hibernate?useUnicode=true&useSSL=false&characterEncoding=UTF-8
+    username: root
+    password: root
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+
+########################################################
+###THYMELEAF (ThymeleafAutoConfiguration)
+########################################################
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    content-type: text/html
